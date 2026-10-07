@@ -43,15 +43,15 @@ public class exercicio2 {
             } else {
                 System.out.println("quarto");
             }
+
+            System.out.println("Digite o valor de X");
+            x = sc.nextInt();
+
+            System.out.println("Digite o valor de Y");
+            y = sc.nextInt();
         }
 
         sc.close();
-
-        System.out.println("Digite o valor de X");
-        x = sc.nextInt();
-
-        System.out.println("Digite o valor de Y");
-        y = sc.nextInt();
     }
 
 }
